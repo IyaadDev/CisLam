@@ -1,0 +1,70 @@
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-style: solid;
+  border-radius: 3px;
+  border-top-width: 1px;
+  border-top-color: #EEEEEE;
+  border-bottom-width: 1px;
+  border-bottom-color: #EEEEEE;
+  border-right-width: 1px;
+  border-right-color: #EEEEEE;
+}
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.bs-callout-warning {
+  border-left-color: #aa6708;
+}
+
+.bs-callout-warning h4 {
+  color: #aa6708;
+}
+
+.right {
+}
+
+.fall-fast {
+}
+
+.left {
+}
+
+.fall {
+}
+
+.invert {
+}
+
+.invert {
+  color: white;
+  background-color: black;
+}
+
+.invert:hover {
+  color: black;
+  background-color: white;
+}
+
+.outvert {
+}
+
+.outvert {
+  background-color: white;
+  color: black;
+}
+
+.outvert:hover {
+  background-color: black;
+  color: white;
+}
+

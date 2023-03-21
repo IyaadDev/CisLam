@@ -1,0 +1,216 @@
+.highlight-clean {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.highlight-clean p {
+  color: #7d8285;
+}
+
+.highlight-clean h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-clean .buttons {
+  text-align: center;
+}
+
+.highlight-clean {
+  color: white;
+  background-color: #2c1f1f;
+  padding: 50px 0;
+}
+
+.highlight-clean p {
+  color: #e1eaef;
+}
+
+.highlight-clean h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-clean .buttons {
+  text-align: center;
+}
+
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.day-message {
+  margin-top: 1vw;
+  animation: fadeIn 5s;
+  font-size: 30px;
+}
+
+.date {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.services {
+  float: right;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+body {
+  /*background: #212529;*/
+  animation: fadeBackground 20s;
+  animation-fill-mode: forwards;
+  background: var(--bs-red);
+  background: -webkit-linear-gradient(to right, var(--bs-red),var(--bs-blue));
+  background: linear-gradient(to right, var(--bs-red),var(--bs-blue));
+}
+
+.ronaldo {
+  color: black;
+  text-decoration: none;
+}
+
+.ronaldo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Animations */
+
+.right {
+  animation: superman-fly-right ease-in-out 3.5s backwards;
+}
+
+.right-fast {
+  animation: superman-fly-right ease-in-out 2.5s backwards;
+}
+
+.left-fast {
+  animation: superman-fly-left ease-in-out 2.5s backwards;
+}
+
+.fall {
+  animation: superman-drop ease-in-out 3.5s backwards;
+}
+
+.fall-fast {
+  animation: superman-drop ease-in-out 2s backwards;
+}
+
+/* End of animations */
+
+/* Keyframes */
+
+@keyframes superman-fly-right {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes superman-fly-left {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes superman-drop {
+  from {
+    transform: translateY(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.left {
+  animation: superman-fly-left ease-in-out 2.5s backwards;
+}
+
